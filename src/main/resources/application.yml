@@ -1,0 +1,20 @@
+feign:
+  circuitbreaker:
+    enabled: true
+
+#hystrix:
+#  threadpool:
+#    default:
+#      coreSize: 30
+#
+#  command:
+#    default:
+#      execution:
+#        timeoutInMilliseconds: 3000
+#      metrics:
+#        rollingStats:
+#          timeInMilliseconds: 10000
+#      circuitBreaker:
+#        requestVolumeThreshold: 30
+#        errorThresholdPercentage: 50
+#        sleepWindowInMilliseconds: 10000
